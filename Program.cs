@@ -123,7 +123,7 @@ namespace IRM_HorseRace
                     this.won = 1;
                     Debug.WriteLine("RedRum won");
                    // clearButton.BackColor = Color.FromArgb(random.Next(100) + 155, 100, 100);
-                   clearButton.BackColor = Color.FromArgb(255,0,255,0);
+                   clearButton.BackColor = Color.FromArgb(255,255,0,0);
                 }
                 g.DrawLine(pen, this.bottomX, ClientSize.Height / 2, this.bottomX += 4, ClientSize.Height);
                 Thread.Sleep(random.Next(100) + 40);
